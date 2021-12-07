@@ -1,7 +1,7 @@
 with open("inputs/input6.txt", encoding="utf8") as infile:
     inp = [int(x) for x in infile.readline().strip().split(",")]
     toAppend = []
-    for n in range(256):
+    for n in range(80):
         for i in range(len(inp)):
             if inp[i] == 0:
                 toAppend.append(8)
